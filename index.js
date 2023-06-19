@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 9000;
 
 const io = new Server(PORT, {
     cors: {
-        origin: 'http://localhost:3000',
+        origin: 'https://648fe466c41d51225d59bcfa--sunny-sorbet-ce43aa.netlify.app/',
     }, 
 })
 
